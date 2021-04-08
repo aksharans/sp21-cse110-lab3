@@ -195,7 +195,47 @@
         <hr>
 
         <form>
-            <!--form stuff here-->
+            <h2>Create New Journal Entry</h2>
+            <fieldset>
+                <label>Title: </label>
+                <input type="text"> <br><br>
+
+                <label>Date: </label>
+                <input type="date"><br><br>
+
+                <h3>Sections</h3>
+
+                <input type="checkbox" id="Stuff"> 
+                <label for="Stuff">Stuff</label>  <br><br>
+                <label for="num">Number of entries for Highlights/Things to Do: </label> 
+                <select id="num">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select> <br><br>
+                    
+                <input type="checkbox" id="Summary"> 
+                <label for="Summary">Summary</label> <br><br>
+
+                <label>Summary: </label> <br>
+                <textarea>Write a brief statment about the day.</textarea> <br><br>
+
+                <label>Multimedia?: </label>
+                <input type="radio"> <br> <br>
+
+                <label for="words-input">Special Word(s) of the Day: </label>
+                <input list="words-choices" id="words-input">
+                <datalist id="words-choices"> 
+                    <option>Software Engineering</option>
+                    <option>Computer Engineering</option>
+                    <option>UCSD</option>
+                </datalist> <br> <br>
+
+                <button type="submit">Add Entry</button>
+
+            </fieldset>
         </form>
 
         <hr>
