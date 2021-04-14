@@ -1,0 +1,36 @@
+body {
+    background-color: #23272A;
+    color: white;
+}
+
+header {
+    color: rgb(0, 174, 255);
+    text-align: center;
+}
+
+a {
+    color: hsl(183, 54%, 50%);
+}
+
+h2 {
+    color: rgb(255, 119, 119);
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(86, 252, 230);
+    text-decoration: overline;
+}
+
+h5 {
+    color: rgb(100, 172, 255);
+}
+
+details {
+    color: coral;
+}
+
+form {
+    background-color: dimgray;
+}
