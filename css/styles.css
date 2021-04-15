@@ -1,5 +1,10 @@
 /* styleheet, external css */
 
+/* universal selector for font */
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 /* color styles for the entire page */
 body {
     background-color: #23272A;
@@ -99,4 +104,20 @@ li {
 section {
     max-width: 1500px;
     max-height: 1500px;
+}
+
+/* pseudo-classes for button and links*/
+button:active {
+    background-color: darkorange;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+/* media query if viewport width < 800px */
+@media (max-width: 800px) {
+    body {
+        background-color: darkblue;
+    }
 }
