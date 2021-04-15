@@ -69,3 +69,34 @@ fieldset {
     padding-bottom: 10px;
     padding-right: 500px;
 }
+
+/* display, position, sizing properties */
+p {
+    display: inline;
+}
+
+details {
+    margin-top: 20px;
+}
+
+.ucsd {
+    display: block;
+}
+
+nav {
+    position: fixed;
+}
+
+img, video {
+    position: relative;
+}
+
+li {
+    width: 100px;
+    height: 75px;
+}
+
+section {
+    max-width: 1500px;
+    max-height: 1500px;
+}
