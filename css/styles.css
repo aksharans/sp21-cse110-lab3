@@ -1,11 +1,18 @@
+/* styleheet, external css */
+
+/* color styles for the entire page */
 body {
     background-color: #23272A;
     color: white;
 }
 
+/* color, background color, text styles, borders for html elements */
 header {
     color: rgb(0, 174, 255);
     text-align: center;
+    border-color: aquamarine;
+    border-style: groove;
+    border-width: 4mm;
 }
 
 a {
@@ -33,4 +40,32 @@ details {
 
 form {
     background-color: dimgray;
+}
+
+/* border and padding/margin with units for sections and form */
+section {
+    border-color: aqua;
+    border-radius: 1cm;
+    border-style: ridge;
+    border-width: 0.05in;
+    padding: 10px 10px 50px 10px;
+    margin: auto;
+}
+
+#section {
+    margin-top: 5vh;
+    margin-bottom: 5vw;
+    margin-left: 1rem;
+    margin-right: 2ex;
+}
+
+.form {
+    margin: 50px 25px 50px 25px;
+}
+
+fieldset {
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+    padding-right: 500px;
 }
