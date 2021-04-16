@@ -138,3 +138,33 @@ a:hover {
 .item {
     border: 1px solid white;
 }
+
+/* selectors */
+[class |= "head"] {
+    background-color: paleturquoise;
+}
+
+p:hover, span:hover, li:hover {
+    color: goldenrod;
+}
+
+div div {
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+h3 + h5 {
+    color: lightgreen
+}
+
+details > h3 {
+    color: tan;
+}
+
+h2 ~ fieldset {
+    color: lemonchiffon;
+}
+
+p.name {
+    font-size: larger;
+    font-weight: 900;
+}
